@@ -1,0 +1,8 @@
+<templateSet group="inser">
+  <template name="ctime" value="$date$" shortcut="ENTER" description="当前时间" toReformat="false" toShortenFQNames="true">
+    <variable name="date" expression="date(&quot;yyyy-MM-dd HH:mm:ss&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
